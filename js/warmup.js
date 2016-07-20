@@ -2,12 +2,13 @@ window.Warmup = {
 
   initialize: function () {
 
+  $("#root > li > span:first-child")
     /*
       Description: show the names of the people at the top level
       Outcome: Izaiah, Eulalia
     */
     showNamesForSelector("#top-level-button", "#root > li > span");
-
+    $("#root > li > ul >li")
     /*
       Description: show the names of the people at the second level
       Outcome: Joel, Aaliyah, Claude
